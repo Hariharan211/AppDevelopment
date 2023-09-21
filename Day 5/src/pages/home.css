@@ -1,0 +1,9 @@
+
+.body{
+    min-height: 80vh;
+    background-image: url("https://images.unsplash.com/photo-1622447036013-a7e7367759c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+    background-image: no-repeat;
+    text-align: center;
+    font-style: oblique;
+    -webkit-text-fill-color: rgba(5, 51, 5, 0.758);
+}
