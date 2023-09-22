@@ -1,0 +1,47 @@
+/* Navbar.css */
+.navbar {
+    background-color: #4188d4;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .navbar-heading h1 {
+    position: absolute;
+    color: rgb(2, 14, 26);
+    font-size: 1.5rem; 
+    font-style: oblique;
+    display: flex;
+    margin-left: 1300px;
+     margin-top: -1px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .actions{
+    display: flex;
+  }
+  .nav-welcome {
+    margin-top: 15px;
+    font-size: large;
+  }
+  
