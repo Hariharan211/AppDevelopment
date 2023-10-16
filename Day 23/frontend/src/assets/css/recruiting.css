@@ -1,0 +1,120 @@
+/* Apply these styles to your Joblisting component */
+/* Container for the entire Joblisting page */
+.Joblisting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Search container */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Search bar and button styles */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Continue button */
+.continue-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Job container */
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Job item styles */
+.job-item {
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Add button styles */
+.job-item button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Saved Jobs container */
+.saved-jobs-container {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Saved job item styles */
+.saved-job-item {
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .continue-btn {
+    margin-top: 10px;
+  }
+  
+  .job-item {
+    width: 90%;
+  }
+  
+  .saved-job-item {
+    width: 90%;
+  }
+}
